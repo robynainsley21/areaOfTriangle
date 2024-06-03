@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 2rem;
+    border-radius: 7px;
+}
+
+.flex-item{
+    margin-top: 1.5rem;
+}
+
+input{
+    padding: .3rem;
+}
+
+button{
+    margin-top: 1.5rem;
+    padding: .4rem;
+}
